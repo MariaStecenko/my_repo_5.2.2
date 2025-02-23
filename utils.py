@@ -16,3 +16,5 @@ def is_power_of_5(n):
         n //= 5
     return n == 1
 
+def is_power_of_2(n):
+    return (n & (n - 1)) == 0 and n > 0
